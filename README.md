@@ -90,3 +90,69 @@ Independent Researcher in Theoretical Chemistry
 
 - GitHub: https://github.com/SamuelONjoku
 - ORCID: https://orcid.org/0000-0002-0149-6269
+
+
+
+
+## Reproducibility and Installation
+
+The simulation can be reproduced using Python 3.12 and the scientific computing libraries listed in `requirements.txt`.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/SamuelONjoku/Quantum-Harmonic-Oscillator-Simulation.git
+cd Quantum-Harmonic-Oscillator-Simulation
+```
+
+### 2. Create a Python Environment
+
+Using Anaconda or Miniconda:
+
+```bash
+conda create -n quantum-research-312 python=3.12
+conda activate quantum-research-312
+```
+
+### 3. Install Dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 4. Run the Simulation
+
+Execute the main Python script:
+
+```bash
+python src/harmonic_oscillator.py
+```
+
+The program calculates the analytical energy eigenvalues for the first four quantum harmonic oscillator states and generates the corresponding visualizations.
+
+### 5. Generated Outputs
+
+The simulation generates the following figures in the `figures/` directory:
+
+- `wavefunctions.png` — Harmonic oscillator wavefunctions.
+- `probability_densities.png` — Probability density distributions.
+- `energy_levels.png` — Energy eigenvalue diagram.
+
+### Computational Requirements
+
+- Python 3.12
+- NumPy
+- SciPy
+- Matplotlib
+
+For details about the theoretical model, numerical checks, and validation results, see [VALIDATION.md](VALIDATION.md).
+
+
+## Author
+
+**Samuel O. Njoku**
+
+Independent Researcher in Theoretical Chemistry
+
+- GitHub: https://github.com/SamuelONjoku
+- ORCID: https://orcid.org/0000-0002-0149-6269
